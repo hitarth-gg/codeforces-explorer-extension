@@ -8,7 +8,7 @@ This project uses [Vite](https://vitejs.dev/) and [crxjs](https://crxjs.dev/vite
 
 ### Clone repository
 ```sh
-git clone git@github.com:hitarth-gg/codeforces-explorer-extension.git
+git clone https://github.com/hitarth-gg/codeforces-explorer-extension
 ```
 
 ### Install dependencies
