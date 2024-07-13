@@ -5,10 +5,10 @@ Extension is based on [react-content-script](https://github.com/yosevu/react-con
 This project uses [Vite](https://vitejs.dev/) and [crxjs](https://crxjs.dev/vite-plugin) to build the extension.
 
 ## Setup
-
+https://www.youtube.com/watch?v=g1JUdPvTSEk&ab_channel=hitarth
 ### Clone repository
 ```sh
-git clone git@github.com:hitarth-gg/codeforces-explorer-extension.git
+git clone https://github.com/hitarth-gg/codeforces-explorer-extension
 ```
 
 ### Install dependencies
