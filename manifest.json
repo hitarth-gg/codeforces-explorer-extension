@@ -8,11 +8,19 @@
     "default_icon": "logo192.png"
   },
   "icons": {},
+  "permissions": ["storage"],
   "content_scripts": [
     {
-      "matches": ["https://blank.org/*", "https://codeforces.com/profile/*", "https://codeforces.com/contest/*", "https://codeforces.com/problemset/*"],
+      "matches": [
+        "https://blank.org/*",
+        "https://codeforces.com/profile/*",
+        "https://codeforces.com/contest/*",
+        "https://codeforces.com/problemset/*",
+        "https://codeforces.com/settings/general"
+      ],
       "js": ["content-script/src/main.tsx"],
-      "media": []
+      "media": [],
+      "run_at": "document_end"
     }
   ]
 }
