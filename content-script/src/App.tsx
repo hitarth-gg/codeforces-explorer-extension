@@ -64,11 +64,11 @@ function App() {
   const handleTagsChange = () => {
     setShowTagsSetting(!showTagsSetting);
     localStorage.setItem("showTagsSetting", String(!showTagsSetting));
-    console.log("showTagsSetting: ", !showTagsSetting);
+    // console.log("showTagsSetting: ", !showTagsSetting);
   };
   const handleTempTagsChange = () => {
     setTempShowTags(!tempShowTags);
-    console.log("tempShowTags: ", !tempShowTags);
+    // console.log("tempShowTags: ", !tempShowTags);
   };
 
   let url = window.location.href;
@@ -88,9 +88,9 @@ function App() {
             .innerHTML.trim()
         : null;
 
-      console.log(ratingBox);
-      console.log(rating);
-      console.log(tagParent);
+      // console.log(ratingBox);
+      // console.log(rating);
+      // console.log(tagParent);
 
       if (tagParent) {
         // tagParent.style.opacity = tempShowTags ? "1" : "0";
@@ -111,6 +111,7 @@ function App() {
       if (ratingBox) {
         const ratingButton = document.createElement("button");
         ratingButton.innerHTML = "| Show Rating";
+        ratingButton.className = "ratingButton";
         // ratingButton.style.marginLeft = "1px";
         ratingButton.style.cursor = "pointer";
         ratingButton.style.border = "none";
@@ -131,7 +132,7 @@ function App() {
           e.stopPropagation();
           if (ratingBox) {
             ratingBox.style.opacity = "1";
-            console.log("clicked");
+            // console.log("clicked");
           }
         });
       }
@@ -139,10 +140,11 @@ function App() {
       return () => {
         problemTags?.removeEventListener("click", handleTempTagsChange);
         if (problemTags?.lastChild) {
-          problemTags.removeChild(problemTags.lastChild);
+          // problemTags.removeChild(problemTags.lastChild);
         }
         // remove button
-        problemTags?.removeChild(problemTags?.lastChild as Node);
+        // problemTags?.removeChild(problemTags?.lastChild as Node);
+        problemTags?.querySelector(".ratingButton")?.remove();
       };
     } else if (url.includes("settings/general")) {
       const tableLeft = document.querySelector(".subformContainer.table-form");
@@ -189,7 +191,7 @@ function App() {
   const handleClick = () => {
     const url = window.location.href;
     if (url.includes("profile")) {
-      console.log(url.split("/")[4]);
+      // console.log(url.split("/")[4]);
       window.open(
         `https://hitarth-gg.github.io/codeforces-explorer/?=${
           url.split("/")[4]
