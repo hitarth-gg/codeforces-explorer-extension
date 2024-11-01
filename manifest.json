@@ -20,6 +20,7 @@
       ],
       "js": ["content-script/src/main.tsx"],
       "media": [],
+      "content_security_policy": "script-src 'self' https://codeforces.com/*; object-src 'self'",
       "run_at": "document_end"
     }
   ]

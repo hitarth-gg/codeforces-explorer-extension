@@ -252,16 +252,17 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@crxjs/vite-plugin@2.0.0-beta.11":
-  version "2.0.0-beta.11"
-  resolved "https://registry.npmjs.org/@crxjs/vite-plugin/-/vite-plugin-2.0.0-beta.11.tgz"
-  integrity sha512-KhWZhXJkle/Bip7Q1KaU8t8GKomHhOEn9joegcltYepsInv4FjZ+CPdMVZhFmCYKKCAn+wAL2IiNYW4QQnSHsA==
+"@crxjs/vite-plugin@^2.0.0-beta.26":
+  version "2.0.0-beta.26"
+  resolved "https://registry.npmjs.org/@crxjs/vite-plugin/-/vite-plugin-2.0.0-beta.26.tgz"
+  integrity sha512-fZiSeOB4LOwq3cLIwHJnJ4x/duBU/Gkn3JKF7b7mZIRAXtu1waorJ6QaH7qoZPcN5LzyA3J+/t3Kuwa/oo8XNg==
   dependencies:
     "@rollup/pluginutils" "^4.1.2"
     "@webcomponents/custom-elements" "^1.5.0"
     acorn-walk "^8.2.0"
     cheerio "^1.0.0-rc.10"
     connect-injector "^0.4.4"
+    convert-source-map "^1.7.0"
     debug "^4.3.3"
     es-module-lexer "^0.10.0"
     fast-glob "^3.2.11"
