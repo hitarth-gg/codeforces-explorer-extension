@@ -39,5 +39,11 @@ e.g.
     ```
     ![image](https://github.com/hitarth-gg/codeforces-explorer-extension/assets/132205558/4aa7bdf3-5253-46ad-bd17-01cbd63750f1)
 
-
+# v1.1.0
+- Added option to hide/unhide problem tags under [Codeforces > Settings >General](https://codeforces.com/settings/general)
+![image](https://github.com/user-attachments/assets/ba8bd062-3a4e-49de-986f-5ea999f66b01)
+- Hides the tags by default when the setting is turned on.
+![image](https://github.com/user-attachments/assets/bf04bffc-8317-4905-a502-cc0b45b97010)
+- Clicking on `Problem Tags` will hide/unhide the problem tags and clicking on `Show Rating` will show the rating of the current problem.
+![image](https://github.com/user-attachments/assets/801f4371-90e6-4e52-a415-1c3b16f7bd45)
 
